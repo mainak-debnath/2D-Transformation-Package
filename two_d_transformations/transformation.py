@@ -1,6 +1,5 @@
 import math
 
-
 def translation(v, t):
     for i in range(len(v)):
         for j in range(0, 1):
@@ -90,5 +89,5 @@ def reflectionxy(v):
         for j in range(0, 1):
             x2 = v[i][j + 1]
             y2 = v[i][j]
-            print("About X+Y, reflected coordinates of vertex ", i + 1, " : x2 = ", x2, " ,  y2 = ", y2)
+            print("About X=Y, reflected coordinates of vertex ", i + 1, " : x2 = ", x2, " ,  y2 = ", y2)
     return
